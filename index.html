@@ -1,0 +1,14 @@
+<!doctype html>
+<html style="font-size: 24pt;>
+   <body style="padding: 120px;">
+      <script type="text/javascript">
+         navigator.share({
+            title: 'open hanaromartapp',
+            url: 'hanaromartapp://'
+         })
+         .then(() => alert('shared successful'))
+         .catch(error => alert(error));
+
+      </script>
+   </body>
+</html>
